@@ -1,0 +1,237 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+      border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f88542;
+      border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f65c08;
+  }
+  
+  body{
+      width: 100%;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .container{
+      margin: 0 auto;
+      width: 85vw;
+  
+  }
+  .navbar{
+      
+      position: sticky;
+      top: 0;
+      height: 45px;
+      border: 1px solid orange;
+      border-radius: 15px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+  
+  }
+  
+  
+  .navbar ul{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+      margin-right: 10px;
+      list-style:none;
+      border-radius: 15px;
+  }
+  .logo-img img{
+      width: 120px;
+      height: 120px;
+      
+      
+  }
+  .logo-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .btn-nav{
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      background-color:  rgb(255, 253, 252);
+      cursor: pointer;
+      color: rgb(0, 0, 0);
+  }
+  .btn-nav:hover{
+      background-color: rgb(238, 151, 29);
+      color: rgb(255, 255, 255);
+      transition: 0.5s;
+  }
+  
+  .btn,{
+      margin: 10px 0px;
+      padding: 8px;
+      border-radius: 9px;
+      border:none;
+      background-color: rgb(251, 143, 96);
+      cursor: pointer;
+      color: white;
+  }
+  .btn:hover{
+      background-color: rgb(248, 99, 13);
+      color: rgb(255, 255,255);
+      transition: 0.5s;
+      box-shadow: 0px 4px 10px 0px rgba(242, 136, 71, 0.412);
+  
+  }
+  .popular{
+      background-image: url(https://cdn5.vectorstock.com/i/1000x1000/53/49/backgrounds-black-geometric-patterns-dark-patterns-vector-24035349.jpg);
+      background-position: 30px;
+      margin-top: 5px;
+      border-radius: 15px;
+      display: flex;
+      gap: 20px;
+      justify-content: space-evenly;
+   
+      overflow-x: scroll;
+      align-items: center;
+  }
+  .popular-card{
+      color: rgb(255, 255, 255);
+      width: 240px;
+      height: 260px;
+      margin: 10px;
+      padding: 10px;
+      padding-top: 0%;
+      flex-shrink: 0;
+  }
+  
+  .popular-card img{
+      width: 100%;
+      border-radius: 12px;
+  }
+  .popular-card:hover{
+      background-color: rgb(110, 108, 108);
+      box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.5s;
+      border: 1px solid rgb(159, 159, 159);
+      border-radius: 10px;
+  }
+  
+  .content{
+      width: 100%;
+      height: 100%;
+      /* border : 1px solid black; */
+      border-radius: 15px;
+      margin-top: 5px;
+      box-sizing: border-box;
+  }
+  .content-filter{
+      width: 100%;
+      height: 70px; 
+      border : 1px solid rgb(255, 255, 255);
+      border-radius: 15px;
+      /* margin-top: 5px; */
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 15px;
+      box-sizing: border-box;
+  }
+  .filters select{
+  
+      padding: 3px;
+      border-radius: 10px;
+      border: 1px solid orange;
+  
+  }
+  
+  .cards{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 5px;
+  }
+  .card{
+      
+      width: 240px;
+      margin: 10px;
+      padding: 10px;
+      padding-top: 0%;
+     
+  }
+  .card img{
+      width: 100%;
+     
+      border-radius: 12px;
+  }
+  .card-text{
+      margin-left: 39px;
+  }
+  .title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  hr{
+      margin:0;
+  }
+  .card:hover{
+      background-color: white;
+      box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+      transition: 0.5s;
+      border: 1px solid rgb(159, 159, 159);
+      border-radius: 10px;
+  }
+  .details{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .rating{
+      border: 1px solid gray;
+      padding: 0 5px;
+      border-radius: 15px;
+  }
+  .rating:hover{
+      background-color: rgb(101, 99, 99);
+      color: rgb(255, 255, 255);
+      transition: 0.5s;
+  }
+  .btn-map{
+      margin: 20px;
+      background-color: rgb(255, 255, 255);
+      border: none;
+      font-size: 40px;
+  }
+  
+  footer {
+      margin-top: 50px;
+      background-color: rgb(251, 143, 96) ;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    footer p {
+      margin: 0;
+    }
